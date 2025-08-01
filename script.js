@@ -3,8 +3,8 @@
 function updateClock() {
 
 	const now = new Date();
-	const formateTime = now.toLocalString();
-	document.getElementById('timer').textContext = formateTime;
+	const formateTime = now.toLocaleString();
+	document.getElementById('timer').textContent = formateTime;
 	
 }
 updateClock();
